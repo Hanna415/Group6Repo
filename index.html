@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Renewable Energy & Climate Change</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/Co2-logo.png" rel="icon">
+  <link href="assets/img/Co2-logo.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center accent-background">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">group6@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>+639112969672</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/Co2-logo.png" alt="">
+          <h4 class="sitename"> Carbon Track</h4>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li href= "#dropdown" class="dropdown"><a href="#"><span>Renewable Energy</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="solar-energy.html">Solar Energy</a></li>
+                <li><a href="wind-energy.html">Wind Energy</a></li>
+                <li><a href="hydro-energy.html">Hydro Energy</a></li>
+                <li><a href="geothermal-energy.html">Geothermal Energy</a></li>
+              </ul>
+            </li>
+            <li><a href="#services">Calculator</a></li>
+            <li><a href="#portfolio">Energy</a></li>
+            <li><a href="#team">Climate</a></li>
+            <li><a href="#contact" class>Team</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+  <!-- Hero Section -->
+    <section id="hero" class="hero section accent-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+          <div class="carousel-container">
+            <h1>Renewable Energy for a Sustainable World</h1>
+            <p>Learn, track, and adopt eco-friendly solutions for a better future.</p>
+            <a href="#featured-services" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+          <div class="carousel-container">
+            <h1>Go Green, Power the Future</h1>
+            <p>Discover renewable energy sources and take action for a cleaner planet.</p>
+            <a href="#featured-services" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+          <div class="carousel-container">
+            <h1>Clean Energy, Brighter Future</h1>
+            <p>Explore renewable solutions and track your carbon footprint for a sustainable tomorrow.</p>
+            <a href="#featured-services" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+  
+
+
+  <!-- About Section -->
+    <section id="about" class="about section">
+
+    <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+          <h2 style="margin: 20px 50px 50 50px;">Why Renewable Energy matter</h2>
+              <p>In the face of growing environmental concerns and the escalating impacts of climate change, the global community is increasingly recognizing the urgent need for sustainable energy solutions. Traditional energy sources, such as coal, oil, and natural gas, have powered industrial development and economic growth for centuries. However, their widespread use has come at a significant cost to the environment, contributing to pollution, greenhouse gas emissions, and the depletion of finite natural resources.
+                 As we strive to mitigate the adverse effects of climate change and protect our planet for future generations, the transition to renewable energy has emerged as a critical priority. Renewable energy (RE) refers to energy generated from natural sources that are replenished on a human timescale, such as sunlight, wind, water, and geothermal heat. Unlike fossil fuels, renewable energy sources are abundant, sustainable, and have a much lower environmental impact.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/hero-carousel/hero-carousel-2.jpg" class="img-fluid custom-height" alt="">
+            <a href="https://youtu.be/1kUE0BZtTRc?si=32CgAmihewU65KF4" class="glightbox pulsating-play-btn"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Different Types of Renewable Energy</h3>
+            <ul>
+                <li><i class="bi bi-check2-all"></i> <span>Solar Energy</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Wind Energy</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Hydropower Energy</span></li>
+                <li><i class="bi bi-check2-all"></i> <span>Geothermal Energy</span></li>
+            </ul>
+            <p style="text-align: justify;" >
+              Renewable energy comes from naturally replenishing sources like solar, wind, hydro, and geothermal power. It produces fewer emissions than fossil fuels, reducing pollution and carbon footprints. Green energy, a subset of renewables, offers the most environmental benefits. Advancing technology and global efforts are making a renewable-powered future achievable.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+
+  <!--Types of Renewable Energy -NASA BABA NG ABOUT SECTION--> 
+    <section id="featured-services" class="featured-services section light-background">
+
+        <!-- <div class="container">
+          <a href="solar-energy.html" class="btn btn-primary">Learn More About Solar Energy</a> -->
+
+            <div class="row gy-4">
+      
+               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                  <div class="service-item position-relative">
+                     <div class="icon"><i class="bi bi-activity icon"></i></div>
+                     <h4><a href="solar-energy.html" class="stretched-link">Solar Energy</a></h4>
+                     <p>Solar energy converts sunlight into electricity using photovoltaic panels or solar thermal systems. It is abundant, sustainable, and reduces dependence on fossil fuels.</p>
+               </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                  <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+                  <h4><a href="wind-energy.html" class="stretched-link">Wind Energy</a></h4>
+                  <p> Wind energy harnesses the power of moving air using wind turbines to generate electricity. It is a clean and renewable source that helps reduce greenhouse gas emissions.</p>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                  <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+                  <h4><a href="hydro-energy.html" class="stretched-link">Hydropower Energy</a></h4>
+                  <p>Hydro generates electricity by using the movement of water, often through dams or flowing rivers. It is one of the most reliable and widely used renewable energy sources.</p>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative">
+                  <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+                  <h4><a href="geothermal-energy.html" class="stretched-link">Geothermal Energy</a></h4>
+                  <p>Geothermal energy taps into the Earth's internal heat to produce electricity or provide direct heating. It is a stable and sustainable energy source available year-round.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+    </section><!--End of Types of Renewable Energy-->
+
+
+  <!-- Carbon Footprint Calculator Section -->
+   <section id="services" class="services section">
+    <div class="container section-title1" data-aos="fade-up">
+      <h2>What is a Carbon Footprint?</h2>
+      <p>A carbon footprint is the total amount of greenhouse gases (including carbon dioxide and methane) that are generated by our actions.
+           The average carbon footprint for a person in the United States is 16 tons, one of the highest rates in the world. Globally, the average carbon footprint is closer to 4 tons. To have the best chance of avoiding a 2℃ rise in global temperatures, the average global carbon footprint per year needs to drop to under 2 tons by 2050.
+           Lowering individual carbon footprints from 16 tons to 2 tons doesn’t happen overnight! By making small changes to our actions, like eating less meat, taking fewer connecting flights and line drying our clothes, we can start making a big difference.
+        </p>
+  
+        <div style="margin-top: 30px;"> 
+            <section id="carbon-calculator">
+              <h2>Carbon Footprint Calculator</h2>
+              <p>Calculate your carbon footprint based on energy consumption and transportation habits.</p>
+
+              <form id="calculator-form">
+                <label for="electricity">Monthly Electricity Usage (kWh):</label>
+                <input type="number" id="electricity" placeholder="Enter kWh" required>
+                <label for="car-miles">Weekly Car Mileage (km):</label>
+                <input type="number" id="car-miles" placeholder="Enter km" required>
+                <label for="public-transport">Public Transport Usage (hours/week):</label>
+                <input type="number" id="public-transport" placeholder="Enter hours" required>
+                <label for="gas">Monthly Natural Gas Usage (m³):</label>
+                <input type="number" id="gas" placeholder="Enter m³" required>
+                <button type="button" onclick="calculateCarbon()">Calculate</button>
+              </form>
+
+              <!-- Result Display -->
+              <div id="result-text"></div>
+              <canvas id="carbonChart"></canvas>
+            </section>
+          </div>
+        </div>
+        
+        
+  <!--INFORMATIONS ABOUT CARBON FOOTPRINT CALCULATOR-->
+  <div class="container section-title" data-aos="fade-up">
+    <div style="margin-top: 50px;">
+
+    <h3 class="left-align"> How Does This Calculator Work?</h3>
+    <p class="left-align">This calculator estimates your carbon footprint based on:</p>
+    <ul class="left-align">
+        <li>Electricity consumption (kWh per month)</li>
+        <li>Car travel distance (km per week)</li>
+        <li>Public transport usage (hours per week)</li>
+        <li>Natural gas consumption (cubic meters per month)</li>
+    </ul>
+    <p class="left-align">Each of these activities releases a specific amount of CO₂. The calculator multiplies your inputs by standard emission factors to estimate your total footprint.</p>
+
+    <div style="margin-top: 50px;">
+
+    <h3 class="left-align"> Why Should You Reduce Your Carbon Footprint?</h3>
+    <p class="left-align">This calculator estimates your carbon footprint based on:</p>
+    <ul class="left-align">
+        <li>Lower Air Pollution – Reducing CO₂ emissions helps improve air quality.</li>
+        <li>Fight Climate Change – Less CO₂ means a healthier planet.</li>
+        <li>Save Energy & Money – Using less energy can also reduce your electricity and fuel costs.</li>
+        <li>Protect Nature – Reducing emissions helps preserve ecosystems and biodiversity.</li>
+    </ul>
+    </div>
+    </div>
+  </div>
+  </section>
+
+
+  <!--LIVE RENEWABLE USAGE MAP SECTION-->
+    <section id="portfolio" class="resume section">
+        <!-- Section Title -->
+        <div class="container section-title2" data-aos="fade-up">
+            <h2>Live Renewable Energy Usage Map and Chart</h2>
+            <div class="title-shape">
+            </div>
+            <p style="margin: 10px 50px 50 50px;"> 
+              A Live Global Renewable Energy Usage Map tracks real-time data on solar, wind, hydro, and geothermal power. It provides an interactive way to monitor how countries and regions generate and consume renewable energy. The tool visualizes global energy trends and compares adoption rates. It also helps analyze the impact of green energy initiatives. With this data, users can make informed decisions for a cleaner and more sustainable future.
+            </p>
+        </div>
+
+            <div class='tableauPlaceholder' id='viz1741237441976' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;YW&#47;YWKTBF2BM&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;YWKTBF2BM' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;YW&#47;YWKTBF2BM&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1741237441976');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1313px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1050px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1313px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1050px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.minWidth='1313px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='1900px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <h4>Map and Chart 1</h4>
+            <p  style="text-align: center;">In the Map, use 2 fingers swipe-up to zoom-out and swipe-down to zoom-in.<br>In the Chart, click and drag on the plot area to zoom-in.</p>
+          </div>
+
+          <iframe src='https://embed.global-roam.com/containers/77ff4885-0f4f-4b03-897e-98956e780d55' style='border: none; background: transparent; display: block; width: 100%; min-height: 341px;'></iframe>
+            <div id="co2-map" style="height: 500px; width: 100%;">
+            <h4>Chart 2</h4>
+            <p  style="text-align: center;">Click and drag on the plot area to zoom-in.</p>
+        <br>
+      
+          
+  <!--GLOBAL CLIMATE CHANGE DATA-->
+  <section id="team" class="team section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Global Climate Change Data</h2>
+    </div>
+    <p style="margin: 10px 50px 0 50px;">
+      A Global Climate Change Data Chart is a visual representation of key climate indicators that help track changes in the Earth's climate over time.
+      These charts use real-time and historical data to display trends in temperature rise, carbon dioxide (CO₂) levels, sea level changes, 
+      extreme weather events, and polar ice melting.  
+      <br>
+      <br>
+      By analyzing this data, scientists, policymakers, and the public can better understand the impact of human activities on the environment.
+      Interactive charts provide insights into global warming patterns, greenhouse gas emissions, and the effectiveness of climate policies.
+      These visual tools play a crucial role in raising awareness and driving action toward a more sustainable future.
+    </p>
+    
+    </div>
+    <div id="temperature-widget-container" style="position: relative; margin-top: 80px; text-align: center; overflow: hidden; max-width: 100%; height: auto;">
+    </div>
+    <script type="text/javascript" src="https://www.climatelevels.org/graphs/js/temperature.php?theme=grid-light&pid=2degreesinstitute"></script>
+    
+  </section>
+
+  
+<!--TEAM SECTION-->
+<section id="contact" class="team section light-background" style="margin: 80px 50 10 50;">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>GROUP 6</h2>
+  </div> <!-- End Section Title -->
+
+  <div class="container">
+    <div class="row">
+      <!-- Member Cards -->
+      <div class="col-lg-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="member">
+          <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+          <div class="member-content">
+            <br>
+            <h5>Shiela Mae G. Fungo</h5>
+            <span>BSIT 2-1</span>
+            <p>-----Sorsogon State University-----</p>
+            <div class="social">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="member">
+          <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+          <div class="member-content">
+            <br>
+            <h5>Diosa E. Gavanzo</h5>
+            <span>BSIT 2-1</span>
+            <p>-----Sorsogon State University-----</p>
+            <div class="social">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="member">
+          <img src="assets/img/team/team-3.jfif" class="img-fluid" alt="">
+          <div class="member-content">
+            <br>
+            <h5>Frank Xavier Latonero</h5>
+            <span>BSIT 2-1</span>
+            <p>-----Sorsogon State University-----</p>
+            <div class="social">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="member">
+          <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+          <div class="member-content">
+            <br>
+            <h5>Hanna P. Neri</h5>
+            <span>BSIT 2-1</span>
+            <p>-----Sorsogon State University-----</p>
+            <div class="social">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!--FOOTER SECTION-->
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Carbon Track</span>
+          </a>
+          <p style="text-align: left; font-size: 14px; line-height: 1.6;">We promote renewable energy solutions to combat climate change and create a sustainable future.</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+        <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#services">Calculator</a></li>
+            <li><a href="#portfolio">Renewable Energy</a></li>
+            <li><a href="#team">Data</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>De Castro Street</li>
+            <li>Bulan, Sorsogon</li>
+            <li>Philippines</li>
+            <li><strong>Phone:</strong> <span>+639119269672</span></li>
+            <li><strong>Email:</strong> <span>group6@gmail.com</span></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p style="text-align: center;">© Copyright <strong>Carbon Track</strong> <span>All Rights Reserved</span>
+      </p>
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> 
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Add Leaflet.js (Include before closing </body>) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <script>
+    function loadEnergyMap() {
+    // Create map centered on the Philippines
+    const map = L.map('energyMap').setView([12.8797, 121.7740], 6); 
+
+    // Load OpenStreetMap tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Sample renewable energy data (You can fetch real-time data from an API)
+    const renewableSources = [
+      { lat: 14.5995, lng: 120.9842, type: "Solar", location: "Manila, Philippines" },
+      { lat: 16.4023, lng: 120.5960, type: "Wind", location: "Ilocos Norte, Philippines" },
+      { lat: 13.7563, lng: 121.0583, type: "Hydro", location: "Laguna, Philippines" }
+    ];
+
+    // Add markers for each renewable energy site
+    renewableSources.forEach(source => {
+      L.marker([source.lat, source.lng]).addTo(map)
+        .bindPopup(`<b>${source.type} Energy</b><br>${source.location}`)
+        .openPopup();
+    });
+  }
+
+  // Run function after page loads
+  document.addEventListener("DOMContentLoaded", loadEnergyMap);
+  </script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  gsap.from(".member", {
+    opacity: 0,
+    scale: 0.5,
+    rotateX: 30,
+    borderRadius: "50%",
+    stagger: 0.2, // May interval bawat card
+    duration: 1.2,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".team",
+      start: "top 80%",
+      toggleActions: "play none none none"
+    }
+  });
+</script>
+
+
+
+</body>
+
+</html>
